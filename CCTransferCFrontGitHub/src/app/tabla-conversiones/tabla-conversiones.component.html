@@ -1,0 +1,21 @@
+<app-nav-bar></app-nav-bar>
+<section class="box container">  
+<table class="table table-dark table-hover ">
+
+    <thead>
+      <tr>
+        <th scope="col">Código Moneda</th>
+        <th scope="col">Valor</th>
+  
+      </tr>
+    </thead>
+    <tbody>
+     
+      <tr *ngFor="let serie of cosas; let j = index">
+        <td>{{serie}}</td>
+      
+      </tr>
+
+    </tbody>
+  </table>
+</section>
